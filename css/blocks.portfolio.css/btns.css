@@ -1,0 +1,38 @@
+.btns {
+  padding-top: 94px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 711px;
+  margin: auto;
+}
+.button {
+  background: #f5f4fa;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding: 6px 22px 6px 22px;
+}
+.button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.14);
+}
+
+button {
+  margin: 8px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.35s;
+}

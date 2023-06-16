@@ -1,0 +1,47 @@
+.about {
+  padding: 90px 0;
+}
+.list {
+  list-style-type: none;
+  color: #212121;
+}
+.h5list {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  padding: 0;
+  margin: auto;
+  width: 1170px;
+}
+.information {
+  color: #757575;
+}
+.information {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.abbout {
+  background: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+}
+.images img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}

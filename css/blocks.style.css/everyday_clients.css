@@ -1,0 +1,31 @@
+.everyday_clients h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  margin-bottom: 50px;
+}
+.everyday_clients li {
+  list-style-type: none;
+}
+
+.everyday_clients ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.everyday_clients a {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+}
+
+.everyday_clients a:hover,
+.everyday_clients a:hover path {
+  border-color: #2196f3;
+  fill: #2196f3;
+}
