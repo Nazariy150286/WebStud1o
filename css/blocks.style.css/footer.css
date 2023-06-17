@@ -19,6 +19,7 @@
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #ffffff;
+  margin-left: 35px;
 }
 
 .logo2 span {
@@ -53,7 +54,7 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
+  padding: 12px;
   color: #ffffff;
 }
 .social_media2 a {
@@ -64,15 +65,24 @@
 }
 .social_media2 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: flex-end;
+  list-style-type: none;
+  padding: 0;
 }
 
+.social_media2 a {
+  background: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .social_media2 a:hover path {
   fill: #ffffff;
 }
 .social_media2 a:hover {
   background: #2196f3;
-}
-.social_media2 {
-  list-style-type: none;
 }

@@ -19,6 +19,7 @@
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #ffffff;
+  margin-left: 35px;
 }
 
 .logo2 span {
@@ -47,7 +48,7 @@
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.aboutsm {
+.aboutsm h4 {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -65,14 +66,22 @@
 .social_media2 {
   display: flex;
   justify-content: center;
+  list-style-type: none;
+  padding: 0;
 }
 
+.social_media2 a {
+  background: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .social_media2 a:hover path {
   fill: #ffffff;
 }
 .social_media2 a:hover {
   background: #2196f3;
-}
-.social_media2 {
-  list-style-type: none;
 }
