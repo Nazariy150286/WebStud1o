@@ -54,7 +54,7 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
+  padding: 12px;
   color: #ffffff;
 }
 .social_media2 a {
@@ -65,7 +65,8 @@
 }
 .social_media2 {
   display: flex;
-  justify-content: center;
+  gap: 10px;
+  align-items: flex-end;
   list-style-type: none;
   padding: 0;
 }
