@@ -5,7 +5,7 @@
   list-style-type: none;
   color: #212121;
 }
-.h5list {
+.title {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -34,11 +34,13 @@
 
   color: #757575;
 }
-.abbout {
+.wrapper {
   background: #f5f4fa;
   border-radius: 4px;
   width: 270px;
   height: 120px;
+  padding: 25px 100px;
+  box-sizing: border-box;
 }
 .images img {
   object-fit: cover;

@@ -65,7 +65,7 @@
 }
 .social_media2 {
   display: flex;
-  justify-content: space-between;
+  gap: 10px;
   align-items: flex-end;
   list-style-type: none;
   padding: 0;
