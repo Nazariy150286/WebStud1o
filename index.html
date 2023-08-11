@@ -1283,6 +1283,33 @@
     <div class="overlay">
       <div class="modal">
         <button class="modal-close">&times;</button>
+        <form class="modal-form">
+          <p class="modal-form_title">Залиште свої дані, ми вам передзвонимо</p>
+          <label class="modal-form-label" for="text">Ім'я</label>
+          <input class="modal-form-input" type="text" name="text" />
+          <label class="modal-form-label" for="text">Телефон</label>
+          <input class="modal-form-input" type="tel" name="tel" />
+          <label class="modal-form-label" for="email">Пошта</label>
+          <input class="modal-form-input" type="email" name="email" />
+          <label class="modal-form-comment" for="comments">Коментар</label>
+          <textarea
+            name="comments"
+            id="message"
+            placeholder="Введіть текст"
+          ></textarea>
+          <div class="form-block">
+            <input
+              type="checkbox"
+              class="modal-form-input-checkbox"
+              name="checkbox"
+            />
+            <label class="form-block-label" for="checkbox"
+              >Погоджуюся з розсилкою та приймаю
+              <a class="form-block-link" href="#">Умови договору</a></label
+            >
+          </div>
+          <button class="form-btn">Відправити</button>
+        </form>
       </div>
     </div>
     <script src="./js/wow.js"></script>
