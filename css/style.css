@@ -5,6 +5,7 @@
 @import "./blocks.style.css/team.css";
 @import "./blocks.style.css/everyday_clients.css";
 @import "./blocks.style.css/footer.css";
+@import "./blocks.style.css/modals.css";
 .container {
   width: 1140px;
   margin: 0 auto;
