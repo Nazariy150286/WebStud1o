@@ -114,16 +114,7 @@
       <section class="about">
         <div class="container">
           <ul class="list">
-            <li
-              data-aos="fade-right"
-              data-aos-offset="200"
-              data-aos-delay="50"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
-              data-aos-anchor-placement="top-center"
-            >
+            <li>
               <div class="wrapper">
                 <svg
                   width="70"
@@ -149,16 +140,7 @@
                 позиції.
               </p>
             </li>
-            <li
-              data-aos="zoom-in"
-              data-aos-offset="200"
-              data-aos-delay="50"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
-              data-aos-anchor-placement="top-center"
-            >
+            <li>
               <div class="wrapper">
                 <svg
                   width="70"
@@ -198,16 +180,7 @@
                 і місце навчання кадрів тягне у себе.
               </p>
             </li>
-            <li
-              data-aos="zoom-in"
-              data-aos-offset="200"
-              data-aos-delay="50"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
-              data-aos-anchor-placement="top-center"
-            >
+            <li>
               <div class="wrapper">
                 <svg
                   width="70"
@@ -251,16 +224,7 @@
                 активом значною мірою зумовлює.
               </p>
             </li>
-            <li
-              data-aos="fade-left"
-              data-aos-offset="200"
-              data-aos-delay="50"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
-              data-aos-anchor-placement="top-center"
-            >
+            <li>
               <div class="wrapper">
                 <svg
                   width="70"
@@ -1278,6 +1242,24 @@
             </li>
           </ul>
         </div>
+        <div class="footer-block">
+          <form class="footer_form">
+            <h4 class="footer_form-title">Підпишіться на розсилку</h4>
+            <div class="footer_form-block">
+              <input
+                class="footer_form-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                required
+              />
+
+              <button class="footer_form-btn">
+                Підписатися <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="overlay">
@@ -1285,18 +1267,44 @@
         <button class="modal-close">&times;</button>
         <form class="modal-form">
           <p class="modal-form_title">Залиште свої дані, ми вам передзвонимо</p>
-          <label class="modal-form-label" for="text">Ім'я</label>
-          <input class="modal-form-input" type="text" name="text" />
-          <label class="modal-form-label" for="text">Телефон</label>
-          <input class="modal-form-input" type="tel" name="tel" />
-          <label class="modal-form-label" for="email">Пошта</label>
-          <input class="modal-form-input" type="email" name="email" />
-          <label class="modal-form-comment" for="comments">Коментар</label>
-          <textarea
-            name="comments"
-            id="message"
-            placeholder="Введіть текст"
-          ></textarea>
+          <div class="modal-form-block">
+            <div class="modal-form-block-label">
+              <label class="modal-form-label" for="text">Ім'я</label>
+            </div>
+            <div class="modal-form-block-input">
+              <i class="fa-solid fa-user"></i>
+              <input class="modal-form-input" type="text" name="text" />
+            </div>
+          </div>
+          <div class="modal-form-block">
+            <div class="modal-form-block-label">
+              <label class="modal-form-label" for="text">Телефон</label>
+            </div>
+            <div class="modal-form-block-input">
+              <i class="fa-solid fa-phone"></i>
+              <input class="modal-form-input" type="tel" name="tel" />
+            </div>
+          </div>
+          <div class="modal-form-block">
+            <div class="modal-form-block-label">
+              <label class="modal-form-label" for="email">Пошта</label>
+            </div>
+            <div class="modal-form-block-input">
+              <i class="fa-solid fa-envelope"></i>
+              <input class="modal-form-input" type="email" name="email" />
+            </div>
+          </div>
+          <div class="modal-form-block">
+            <div class="modal-form-block-label">
+              <label class="modal-form-comment" for="comments">Коментар</label>
+            </div>
+            <textarea
+              name="comments"
+              id="message"
+              placeholder="Введіть текст"
+            ></textarea>
+          </div>
+
           <div class="form-block">
             <input
               type="checkbox"
@@ -1318,5 +1326,9 @@
     <script>
       AOS.init();
     </script>
+    <script
+      src="https://kit.fontawesome.com/f642be2b08.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

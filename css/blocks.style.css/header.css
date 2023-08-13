@@ -3,6 +3,7 @@ header {
   width: 100%;
   background-color: #ffffff;
   top: 0;
+  z-index: 2000;
 }
 .header_block {
   display: flex;

@@ -2,6 +2,7 @@ header {
   position: fixed;
   width: 100%;
   background-color: #ffffff;
+  z-index: 2000;
 }
 .header_block {
   display: flex;
