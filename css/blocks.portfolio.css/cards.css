@@ -36,7 +36,7 @@
 
   color: #212121;
 }
-p {
+.paragraph_text {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -46,4 +46,35 @@ p {
   letter-spacing: 0.03em;
 
   color: #757575;
+}
+.cards {
+  position: relative;
+}
+.card_thumb {
+  width: 370px;
+  height: 294px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.card_overlay {
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 370px;
+  height: 294px;
+  background: rgba(33, 150, 243, 0.9);
+}
+.card_thumb-description {
+  margin: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: 0.54px;
+  padding: 63px 24px;
 }
