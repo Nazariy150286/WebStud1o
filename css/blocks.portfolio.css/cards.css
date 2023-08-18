@@ -47,29 +47,15 @@
 
   color: #757575;
 }
-.cards {
+.cards_item {
   position: relative;
 }
-.card_thumb {
-  width: 370px;
-  height: 294px;
-  margin: 0 auto;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: 2;
-}
-
-.card_overlay {
-  top: 0;
-  left: 0;
-  z-index: 2;
-  width: 370px;
-  height: 294px;
-  background: rgba(33, 150, 243, 0.9);
+.cards_item:hover .card_thumb-description {
+  opacity: 1;
 }
 .card_thumb-description {
+  position: absolute;
+  top: 0;
   margin: 0;
   color: #fff;
   font-size: 18px;
@@ -77,4 +63,8 @@
   line-height: 28px; /* 155.556% */
   letter-spacing: 0.54px;
   padding: 63px 24px;
+  overflow: hidden;
+  background: rgba(33, 150, 243, 0.9);
+  opacity: 0;
+  transition: 0.5s ease-in-out;
 }
