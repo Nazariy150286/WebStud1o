@@ -127,6 +127,11 @@
   font-weight: 700;
   line-height: 30px; /* 187.5% */
   letter-spacing: 0.96px;
+
+  transition: 0.5s ease-in-out;
+}
+.footer_form-btn:hover {
+  transform: scale(1.1);
 }
 .footer_form-btn i {
   width: 24px;

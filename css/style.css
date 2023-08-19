@@ -6,20 +6,7 @@
 @import "./blocks.style.css/everyday_clients.css";
 @import "./blocks.style.css/footer.css";
 @import "./blocks.style.css/modals.css";
-.container {
-  width: 1140px;
-  margin: 0 auto;
-}
-body {
-  font-family: "Roboto";
-  font-style: normal;
-}
-
-.block {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
+@import "./blocks.style.css/variables.css";
 
 /* html, */
 /* body {

@@ -48,16 +48,44 @@
         <div class="header_block">
           <div class="header_left">
             <h2 class="logo"><span>Web</span>Studio</h2>
-            <nav>
+            <nav class="header_nav">
               <ul class="menu_links">
                 <li class="header_link">
-                  <a href="/" class="navigation">Студія</a>
+                  <a href="#" class="navigation">Студія</a>
+                  <ul class="submenu">
+                    <li class="submenu_item">
+                      <a href="#work" class="submenu-link">Чим ми займаємося</a>
+                    </li>
+                    <li class="submenu_item">
+                      <a href="#team" class="submenu-link">Наша команда</a>
+                    </li>
+                    <li class="submenu_item">
+                      <a href="#partners" class="submenu-link"
+                        >Постійні клієнти</a
+                      >
+                    </li>
+                  </ul>
+                  <div class="header_link-hover1"></div>
                 </li>
                 <li class="header_link">
                   <a href="./portfolio.html" class="navigation">Портфоліо</a>
+                  <ul class="submenu-2">
+                    <li class="submenu_item-2">
+                      <a href="./portfolio.html#btns" class="submenu-link-2"
+                        >Вибір</a
+                      >
+                    </li>
+                    <li class="submenu_item-2">
+                      <a href="./portfolio.html#projects" class="submenu-link-2"
+                        >Проекти</a
+                      >
+                    </li>
+                  </ul>
+                  <div class="header_link-hover2"></div>
                 </li>
                 <li class="header_link">
                   <a href="/" class="navigation">Контакти</a>
+                  <div class="header_link-hover3"></div>
                 </li>
               </ul>
             </nav>
@@ -329,7 +357,7 @@
           </ul>
         </div>
       </section>
-      <section class="work">
+      <section id="work" class="work">
         <h2 class="type-of-work">Чим ми займаємося</h2>
         <div class="container">
           <ul class="images">
@@ -349,6 +377,7 @@
         </div>
       </section>
       <section
+        id="team"
         class="team"
         data-aos="fade-down"
         data-aos-offset="200"
@@ -775,7 +804,7 @@
           </li>
         </ul>
       </section>
-      <section class="everyday_clients">
+      <section id="partners" class="everyday_clients">
         <div class="container">
           <h2>Постійні клієнти</h2>
           <ul class="list_clients">
@@ -1331,5 +1360,24 @@
       src="https://kit.fontawesome.com/f642be2b08.js"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
+      integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      SmoothScroll({
+        animationTime: 1200,
+        stepSize: 50,
+        accelerationDelta: 30,
+        accelerationMax: 2,
+        keyboardSupport: true,
+        arrowScroll: 50,
+        pulseAlgorithm: true,
+        pulseScale: 4,
+        pulseNormalize: 1,
+        touchpadSupport: true,
+      });
+    </script>
   </body>
 </html>

@@ -6,10 +6,12 @@
   letter-spacing: 0.03em;
 
   color: #212121;
+  margin: 0;
   margin-bottom: 50px;
 }
 .everyday_clients {
-  margin-bottom: 79px;
+  padding-top: 94px;
+  padding-bottom: 79px;
 }
 
 .everyday_clients li {

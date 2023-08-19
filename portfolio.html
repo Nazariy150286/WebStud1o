@@ -50,13 +50,45 @@
             <nav>
               <ul class="menu_links">
                 <li class="header_link">
-                  <a href="/" class="navigation">Студія</a>
+                  <a href="./index.html" class="navigation">Студія</a>
+                  <ul class="submenu">
+                    <li class="submenu_item">
+                      <a href="./index.html#work" class="submenu-link"
+                        >Чим ми займаємося</a
+                      >
+                    </li>
+                    <li class="submenu_item">
+                      <a href="./index.html#team" class="submenu-link"
+                        >Наша команда</a
+                      >
+                    </li>
+                    <li class="submenu_item">
+                      <a href="./index.html#partners" class="submenu-link"
+                        >Постійні клієнти</a
+                      >
+                    </li>
+                  </ul>
+                  <div class="header_link-hover1"></div>
                 </li>
                 <li class="header_link">
                   <a href="./portfolio.html" class="navigation">Портфоліо</a>
+                  <ul class="submenu-2">
+                    <li class="submenu_item-2">
+                      <a href="./portfolio.html#btns" class="submenu-link-2"
+                        >Вибір</a
+                      >
+                    </li>
+                    <li class="submenu_item-2">
+                      <a href="./portfolio.html#projects" class="submenu-link-2"
+                        >Проекти</a
+                      >
+                    </li>
+                  </ul>
+                  <div class="header_link-hover2"></div>
                 </li>
                 <li class="header_link">
                   <a href="/" class="navigation">Контакти</a>
+                  <div class="header_link-hover3"></div>
                 </li>
               </ul>
             </nav>
@@ -99,7 +131,7 @@
       <hr />
     </header>
     <main>
-      <section class="btns">
+      <section id="btns" class="btns">
         <div class="buttons">
           <button class="button">Усі</button>
           <button class="button">Веб-сайти</button>
@@ -151,7 +183,7 @@
               <h4 class="h4">Ресторан Seafood</h4>
               <p class="paragraph_text">Додаток</p>
             </li>
-            <li class="cards_item">
+            <li id="projects" class="cards_item">
               <div class="block">
                 <img src="./img/img11.png" alt="Проєкт Prime" class="img" />
               </div>
@@ -381,6 +413,25 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
+      integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      SmoothScroll({
+        animationTime: 1200,
+        stepSize: 50,
+        accelerationDelta: 30,
+        accelerationMax: 2,
+        keyboardSupport: true,
+        arrowScroll: 50,
+        pulseAlgorithm: true,
+        pulseScale: 4,
+        pulseNormalize: 1,
+        touchpadSupport: true,
+      });
     </script>
   </body>
 </html>
