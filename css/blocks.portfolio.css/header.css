@@ -216,3 +216,12 @@ hr {
   flex-direction: column;
   gap: 15px;
 }
+.header_link-hover2,
+.navigation::after {
+  width: 72px;
+  height: 4px;
+  border-radius: 2px;
+  background: #2196f3;
+  color: #2196f3;
+  opacity: 1;
+}
