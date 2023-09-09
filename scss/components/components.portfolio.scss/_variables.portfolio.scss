@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .container {
   width: 1140px;
   margin: 0 auto;
@@ -10,7 +9,11 @@ body {
   font-family: "Roboto";
   font-style: normal;
 }
-
+.block img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
 body::-webkit-scrollbar {
   width: 15px;
   background: linear-gradient(white);
@@ -40,6 +43,3 @@ body::-webkit-scrollbar-thumb {
   );
   border-radius: 2px;
 }
-=======
-
->>>>>>> 2dc11f45adcc1ff11688820ee01239cce516a517
