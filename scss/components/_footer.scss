@@ -1,0 +1,137 @@
+.footer {
+  padding: 60px 0;
+  background-color: $background-color_5;
+  .container {
+    display: flex;
+    gap: 70px;
+    width: 1217px;
+  }
+}
+.footer__list {
+  list-style-type: none;
+  text-decoration: none;
+}
+.footer__logo2 {
+  font-family: $font-family_2;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: $color_5;
+  margin-left: 35px;
+  span {
+    color: $color_2;
+  }
+}
+.footer__loc {
+  a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: $color_5;
+    text-decoration: none;
+  }
+}
+.footer__loc2 {
+  a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: $color_7;
+    text-decoration: none;
+  }
+}
+.footer__aboutsm {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 12px;
+  color: $color_5;
+}
+.footer__social_media2 {
+  a {
+    background: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      path {
+        fill: #ffffff;
+      }
+      background: #2196f3;
+    }
+  }
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+  list-style-type: none;
+  padding: 0;
+}
+.footer__form-title {
+  color: $color_6;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+.footer__form-input {
+  width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(33, 150, 243, 0);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  outline: none;
+  &::placeholder {
+    padding: 15px 0 15px 16px;
+    color: $color_7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.48px;
+  }
+}
+.footer__form-btn {
+  width: 200px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: none;
+  color: $color_6;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.96px;
+  transition: 0.5s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
+  i {
+    width: 24px;
+    height: 24px;
+  }
+}
+.footer__form-block {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.footer__block {
+  padding: 12px;
+  padding-left: 67px;
+}

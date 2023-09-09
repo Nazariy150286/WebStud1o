@@ -1,0 +1,45 @@
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+body {
+  font-family: $font-family_1;
+  font-style: normal;
+  &::-webkit-scrollbar {
+    width: 15px;
+    background: linear-gradient(white);
+  }
+  &::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+      blue,
+      blue,
+      blue,
+      blue,
+      blue,
+      blue,
+      blue,
+      blue,
+      blue,
+      blue,
+      yellow,
+      yellow,
+      yellow,
+      yellow,
+      yellow,
+      yellow,
+      yellow,
+      yellow,
+      yellow,
+      yellow
+    );
+    border-radius: 2px;
+  }
+}
+.block {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}

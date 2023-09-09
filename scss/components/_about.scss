@@ -1,0 +1,36 @@
+.about {
+  padding: 90px 0;
+  .about__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $color_3;
+  }
+}
+.about__list {
+  list-style-type: none;
+  color: $color_5;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  padding: 0;
+  margin: auto;
+  width: 1170px;
+}
+.about__information {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: $color_1;
+}
+.about__wrapper {
+  background: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  box-sizing: border-box;
+}

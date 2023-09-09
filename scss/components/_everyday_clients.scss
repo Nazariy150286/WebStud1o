@@ -1,0 +1,50 @@
+.everyday_clients {
+  h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $color_3;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  padding-top: 94px;
+  padding-bottom: 79px;
+  li {
+    list-style-type: none;
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+  a {
+    &:hover {
+      border-color: $border-color_1;
+      fill: #2196f3;
+      path {
+        border-color: $border-color_1;
+        fill: #2196f3;
+      }
+    }
+  }
+}
+.everyday_clients__list_clients {
+  a {
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    box-sizing: border-box;
+    display: flex;
+    padding: 16px 30px;
+    justify-content: center;
+    background: #ffffff;
+
+    &:hover {
+      border: 1px solid #2196f3;
+      border-radius: 4px;
+    }
+  }
+}

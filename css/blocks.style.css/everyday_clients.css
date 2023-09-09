@@ -23,7 +23,7 @@
   justify-content: space-between;
   padding: 0;
 }
-.list_clients a {
+.everyday_clients__list_clients a {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   width: 170px;
@@ -40,18 +40,18 @@
   fill: #2196f3;
 }
 
-.list_clients a:hover {
+.everyday_clients__list_clients a:hover {
   border: 1px solid #2196f3;
   border-radius: 4px;
 }
-.list_clients a {
+.everyday_clients__list_clients a {
   --borderWidth: 3px;
   background: #ffffff;
   position: relative;
   border-radius: var(--borderWidth);
 }
 
-.list_clients a:hover:after {
+.everyday_clients__list_clients a:hover:after {
   content: "";
   position: absolute;
   top: calc(-1 * var(--borderWidth));
