@@ -2,80 +2,81 @@
   background-color: $background-color_1;
   margin-top: 94px;
   color: $color_3;
-}
-.team__members {
-  list-style-type: none;
-  width: 1170px;
-  margin: 0 auto 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0;
-  padding-bottom: 94px;
-  perspective: 250px;
-  perspective-origin: 500px;
-}
-.team__text {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: $color_3;
-  padding-top: 94px;
-  padding-bottom: 50px;
-}
-.team__card {
-  background-color: $background-color_4;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease-in-out;
-  border-radius: 0px 0px 4px 4px;
-  &:hover {
-    transform: translate3d(5px, 15px, 10px);
+
+  &__members {
+    list-style-type: none;
+    width: 1170px;
+    margin: 0 auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    padding-bottom: 94px;
+    perspective: 250px;
+    perspective-origin: 500px;
   }
-}
-.team__member {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: $color_3;
-}
-.team__role {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: $color_1;
-}
-.img {
-  width: 270px;
-}
-.team__social_media {
-  display: flex;
-  justify-content: center;
-  padding: 0;
-  margin-bottom: 30px;
-  list-style-type: none;
-  &:hover {
-    cursor: pointer;
+  &__text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $color_3;
+    padding-top: 94px;
+    padding-bottom: 50px;
   }
-  a {
-    background: #ffffff;
-    width: 44px;
-    height: 44px;
-    border-radius: 100%;
+  &__card {
+    background-color: $background-color_4;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    border-radius: 0px 0px 4px 4px;
+    &:hover {
+      transform: translate3d(5px, 15px, 10px);
+    }
+  }
+  &__member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $color_3;
+  }
+  &__role {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $color_1;
+  }
+  .img {
+    width: 270px;
+  }
+  &__social_media {
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 0;
+    margin-bottom: 30px;
+    list-style-type: none;
     &:hover {
-      path {
-        fill: #ffffff;
+      cursor: pointer;
+    }
+    a {
+      background: #ffffff;
+      width: 44px;
+      height: 44px;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover {
+        path {
+          fill: #ffffff;
+        }
+        background: #2196f3;
       }
-      background: #2196f3;
     }
   }
 }

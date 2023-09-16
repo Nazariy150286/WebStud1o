@@ -29,23 +29,23 @@
       }
     }
   }
-}
 
-.everyday_clients__list_clients {
-  a {
-    border: 1px solid #afb1b8;
-    border-radius: 4px;
-    width: 170px;
-    height: 92px;
-    box-sizing: border-box;
-    display: flex;
-    padding: 16px 30px;
-    justify-content: center;
-    background: #ffffff;
-
-    &:hover {
-      border: 1px solid #2196f3;
+  &__list_clients {
+    a {
+      border: 1px solid #afb1b8;
       border-radius: 4px;
+      width: 170px;
+      height: 92px;
+      box-sizing: border-box;
+      display: flex;
+      padding: 16px 30px;
+      justify-content: center;
+      background: #ffffff;
+
+      &:hover {
+        border: 1px solid #2196f3;
+        border-radius: 4px;
+      }
     }
   }
 }

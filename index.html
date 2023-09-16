@@ -94,7 +94,7 @@
                 </li>
 
                 <li class="header__link">
-                  <a href="/" class="header__navigation">Контакти</a>
+                  <a href="#footer" class="header__navigation">Контакти</a>
                   <div class="header__link-hover3"></div>
                 </li>
               </ul>
@@ -1305,60 +1305,65 @@
     </footer>
     <div class="overlay">
       <div class="modal">
-        <button class="modal-close">&times;</button>
-        <form class="modal-form">
-          <p class="modal-form_title">Залиште свої дані, ми вам передзвонимо</p>
-          <div class="modal-form-block">
-            <div class="modal-form-block-label">
-              <label class="modal-form-label" for="text">Ім'я</label>
+        <button class="modal__close">&times;</button>
+        <form class="modal__form">
+          <p class="modal__form_title">
+            Залиште свої дані, ми вам передзвонимо
+          </p>
+          <div class="modal__form-block">
+            <div class="modal__form-block-label">
+              <label class="modal__form-label" for="text">Ім'я</label>
             </div>
-            <div class="modal-form-block-input">
+            <div class="modal__form-block-input">
               <i class="fa-solid fa-user"></i>
-              <input class="modal-form-input" type="text" name="text" />
+              <input class="modal__form-input" type="text" name="text" />
             </div>
           </div>
-          <div class="modal-form-block">
-            <div class="modal-form-block-label">
-              <label class="modal-form-label" for="text">Телефон</label>
+          <div class="modal__form-block">
+            <div class="modal__form-block-label">
+              <label class="modal__form-label" for="text">Телефон</label>
             </div>
-            <div class="modal-form-block-input">
+            <div class="modal__form-block-input">
               <i class="fa-solid fa-phone"></i>
-              <input class="modal-form-input" type="tel" name="tel" />
+              <input class="modal__form-input" type="tel" name="tel" />
             </div>
           </div>
-          <div class="modal-form-block">
-            <div class="modal-form-block-label">
-              <label class="modal-form-label" for="email">Пошта</label>
+          <div class="modal__form-block">
+            <div class="modal__form-block-label">
+              <label class="modal__form-label" for="email">Пошта</label>
             </div>
-            <div class="modal-form-block-input">
+            <div class="modal__form-block-input">
               <i class="fa-solid fa-envelope"></i>
-              <input class="modal-form-input" type="email" name="email" />
+              <input class="modal__form-input" type="email" name="email" />
             </div>
           </div>
-          <div class="modal-form-block">
-            <div class="modal-form-block-label">
-              <label class="modal-form-comment" for="comments">Коментар</label>
+          <div class="modal__form-block">
+            <div class="modal__form-block-label">
+              <label class="modal__form-comment" for="comments">Коментар</label>
             </div>
             <textarea
+              class="modal__comment"
               name="comments"
               id="message"
               placeholder="Введіть текст"
             ></textarea>
           </div>
 
-          <div class="form-block">
+          <div class="modal__form-block--security">
             <input
               type="checkbox"
-              class="modal-form-input-checkbox"
+              class="modal__form-input-checkbox"
               name="checkbox"
               required
             />
-            <label class="form-block-label" for="checkbox"
+            <label class="modal__form_block-label" for="checkbox"
               >Погоджуюся з розсилкою та приймаю
-              <a class="form-block-link" href="#">Умови договору</a></label
+              <a class="modal__form-block-link" href="#"
+                >Умови договору</a
+              ></label
             >
           </div>
-          <button class="form-btn">Відправити</button>
+          <button class="modal__form-btn">Відправити</button>
         </form>
       </div>
     </div>
