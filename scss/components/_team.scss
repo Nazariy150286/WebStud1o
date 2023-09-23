@@ -16,12 +16,8 @@
     perspective-origin: 500px;
   }
   &__text {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: $color_3;
+    @include title($color_3, 36px, 1.08px) {
+    }
     padding-top: 94px;
     padding-bottom: 50px;
   }

@@ -1,13 +1,10 @@
 .everyday_clients {
   h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: $color_3;
     margin: 0;
     margin-bottom: 50px;
+
+    @include title($color_3, 36px, 1.08px) {
+    }
   }
   padding-top: 94px;
   padding-bottom: 79px;

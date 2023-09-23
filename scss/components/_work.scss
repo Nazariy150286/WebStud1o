@@ -4,14 +4,8 @@
   animation: FadeInUp 1s;
 
   &__type-of-work {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: $color_5;
-    display: flex;
-    justify-content: space-around;
+    @include title($color_3, 36px, 1.08px) {
+    }
     margin-bottom: 50px;
   }
   &__images {

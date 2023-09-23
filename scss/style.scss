@@ -1,14 +1,6 @@
-@import "./utils/color";
-@import "./utils/mixin";
-@import "./utils/variables";
+@import "./utils/color", "./utils/mixin", "./utils/variables";
 
-@import "./components/header";
-@import "./components/promo";
-@import "./components/_about";
-@import "./components/work";
-@import "./components/team";
-@import "./components/everyday_clients";
-@import "./components/footer";
-@import "./components/modals";
-@import "./components/btns";
-@import "./components/cards";
+@import "./components/header", "./components/promo", "./components/_about",
+  "./components/work", "./components/team", "./components/everyday_clients",
+  "./components/footer", "./components/modals", "./components/btns",
+  "./components/cards";
