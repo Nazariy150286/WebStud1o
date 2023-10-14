@@ -16,8 +16,7 @@
     perspective-origin: 500px;
   }
   &__text {
-    @include title($color_3, 36px, 1.08px) {
-    }
+    @include title($color_3, 36px, 1.08px);
     padding-top: 94px;
     padding-bottom: 50px;
   }

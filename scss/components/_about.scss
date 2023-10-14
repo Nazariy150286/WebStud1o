@@ -7,24 +7,49 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: $color_3;
+    @media (min-width: 480px) {
+      margin: 30px 0 10px;
+      text-align: center;
+    }
+    @media (min-width: 768px) {
+      text-align: left;
+    }
   }
 
   &__list {
     list-style-type: none;
     color: $color_5;
     display: flex;
+    gap: 30px;
     justify-content: space-between;
     margin-bottom: 80px;
     padding: 0;
     margin: auto;
     width: 1170px;
+
+    @media (min-width: 480px) {
+      width: 450px;
+      flex-wrap: wrap;
+    }
+    @media (min-width: 768px) {
+      width: 354px;
+      flex-wrap: wrap;
+      flex-direction: column;
+
+      li {
+        width: 354px;
+        height: 224px;
+      }
+    }
   }
   &__information {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+
     color: $color_1;
+    margin: 0;
   }
   &__wrapper {
     background: #f5f4fa;
@@ -33,5 +58,13 @@
     height: 120px;
     padding: 25px 100px;
     box-sizing: border-box;
+    @media (min-width: 480px) {
+      padding: 25px 190px;
+      width: 450px;
+    }
+    @media (min-width: 768px) {
+      width: 354px;
+      padding: 25px 142px;
+    }
   }
 }

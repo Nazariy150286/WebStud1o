@@ -4,8 +4,7 @@
   animation: FadeInUp 1s;
 
   &__type-of-work {
-    @include title($color_3, 36px, 1.08px) {
-    }
+    @include title($color_3, 36px, 1.08px);
     margin-bottom: 50px;
   }
   &__images {
