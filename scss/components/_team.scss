@@ -1,24 +1,49 @@
 .team {
-  background-color: $background-color_1;
+  background-color: $background-color_3;
   margin-top: 94px;
   color: $color_3;
+  padding-bottom: 60px;
+  @media (min-width: 1200px) {
+    padding-bottom: 94px;
+  }
 
   &__members {
     list-style-type: none;
     width: 1170px;
-    margin: 0 auto 0;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0;
-    padding-bottom: 94px;
     perspective: 250px;
     perspective-origin: 500px;
+    @media (min-width: 480px) {
+      width: auto;
+      flex-wrap: wrap;
+      gap: 30px;
+      li {
+        width: 450px;
+      }
+    }
+    @media (min-width: 768px) {
+      li {
+        width: 354px;
+      }
+    }
+    @media (min-width: 1200px) {
+      flex-wrap: nowrap;
+    }
   }
   &__text {
-    @include title($color_3, 36px, 1.08px);
-    padding-top: 94px;
-    padding-bottom: 50px;
+    margin: 0;
+    padding: 60px 0 30px;
+    @media (min-width: 480px) {
+      font-size: 28px;
+    }
+    @media (min-width: 1200px) {
+      padding: 94px 0 50px;
+      @include title($color_3, 36px, 1.08px);
+    }
   }
   &__card {
     background-color: $background-color_4;
@@ -47,7 +72,15 @@
     color: $color_1;
   }
   .img {
-    width: 270px;
+    @media (min-width: 480px) {
+      width: 450px;
+    }
+    @media (min-width: 768px) {
+      width: 354px;
+    }
+    @media (min-width: 1200px) {
+      width: 270px;
+    }
   }
   &__social_media {
     display: flex;
@@ -55,6 +88,11 @@
     padding: 0;
     margin-bottom: 30px;
     list-style-type: none;
+    @media (min-width: 480px) {
+      margin: 0 auto;
+      width: 206px;
+      margin-bottom: 30px;
+    }
     &:hover {
       cursor: pointer;
     }

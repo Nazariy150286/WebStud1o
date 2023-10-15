@@ -1,5 +1,13 @@
 .btns {
   padding-top: 170px;
+  @media (min-width: 480px) {
+    padding-top: 140px;
+    padding-bottom: 40px;
+  }
+  @media (min-width: 768px) {
+    padding-top: 140px;
+    padding-bottom: 30px;
+  }
 
   &__buttons {
     display: flex;
@@ -7,6 +15,15 @@
     align-items: center;
     width: 711px;
     margin: auto;
+    @media (min-width: 480px) {
+      width: 450px;
+      flex-wrap: wrap;
+      justify-content: left;
+    }
+    @media (min-width: 768px) {
+      width: 620px;
+      flex-wrap: nowrap;
+    }
   }
   &__button {
     background: #f5f4fa;

@@ -4,7 +4,18 @@
   .container {
     display: flex;
     gap: 70px;
-    width: 1217px;
+
+    @media (min-width: 480px) {
+      flex-direction: column;
+    }
+    @media (min-width: 768px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    @media (min-width: 1200px) {
+      width: 1217px;
+      flex-wrap: nowrap;
+    }
   }
 
   &__list {
@@ -19,6 +30,13 @@
     letter-spacing: 0.03em;
     color: $color_5;
     margin-left: 35px;
+    @media (min-width: 480px) {
+      font-size: 24px;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
     span {
       color: $color_2;
     }
@@ -31,6 +49,9 @@
       letter-spacing: 0.03em;
       color: $color_5;
       text-decoration: none;
+      @media (min-width: 480px) {
+        text-align: center;
+      }
     }
   }
   &__loc2 {
@@ -51,8 +72,25 @@
     text-transform: uppercase;
     padding: 12px;
     color: $color_5;
+    @media (min-width: 768px) {
+      padding-left: 100px;
+    }
+    h4 {
+      margin: 0;
+      @media (min-width: 480px) {
+        text-align: center;
+      }
+    }
   }
   &__social_media2 {
+    @media (min-width: 480px) {
+      width: 206px;
+      padding-left: 117px;
+    }
+    @media (min-width: 768px) {
+      padding-left: 0;
+    }
+
     a {
       background: rgba(255, 255, 255, 0.1);
       width: 44px;
@@ -65,6 +103,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+
       &:hover {
         path {
           fill: #ffffff;
@@ -94,6 +133,12 @@
     background: rgba(33, 150, 243, 0);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     outline: none;
+    @media (min-width: 480px) {
+      width: 450px;
+    }
+    @media (min-width: 1200px) {
+      width: 320px;
+    }
     &::placeholder {
       padding: 15px 0 15px 16px;
       color: $color_7;
@@ -118,6 +163,9 @@
     line-height: 30px;
     letter-spacing: 0.96px;
     transition: 0.5s ease-in-out;
+    @media (min-width: 480px) {
+      margin: 0 auto;
+    }
     &:hover {
       transform: scale(1.1);
     }
@@ -130,9 +178,31 @@
     display: flex;
     gap: 12px;
     align-items: center;
+    @media (min-width: 480px) {
+      flex-wrap: wrap;
+    }
+    @media (min-width: 768px) {
+      flex-direction: column;
+    }
+    @media (min-width: 1200px) {
+      flex-direction: row;
+      flex-wrap: nowrap;
+    }
   }
   &__block {
     padding: 12px;
     padding-left: 67px;
+    @media (min-width: 480px) {
+      text-align: center;
+      padding: 0;
+    }
+  }
+  &__form {
+    @media (min-width: 768px) {
+      padding-left: 166px;
+    }
+    @media (min-width: 1200px) {
+      padding-left: 0;
+    }
   }
 }

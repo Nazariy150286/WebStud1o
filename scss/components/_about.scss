@@ -25,20 +25,24 @@
     margin-bottom: 80px;
     padding: 0;
     margin: auto;
-    width: 1170px;
 
     @media (min-width: 480px) {
       width: 450px;
       flex-wrap: wrap;
     }
     @media (min-width: 768px) {
-      width: 354px;
-      flex-wrap: wrap;
-      flex-direction: column;
+      width: auto;
 
       li {
         width: 354px;
-        height: 224px;
+        height: 226px;
+      }
+    }
+    @media (min-width: 1200px) {
+      flex-wrap: nowrap;
+      li {
+        width: 270px;
+        height: 248px;
       }
     }
   }
@@ -65,6 +69,10 @@
     @media (min-width: 768px) {
       width: 354px;
       padding: 25px 142px;
+    }
+    @media (min-width: 1200px) {
+      width: 270px;
+      padding: 25px 100px;
     }
   }
 }

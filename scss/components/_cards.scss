@@ -3,6 +3,9 @@
   width: 1170px;
   margin-bottom: 95px;
   padding: 35px 0 0px 0;
+  @media (min-width: 480px) {
+    width: auto;
+  }
 
   &__list {
     list-style-type: none;
@@ -10,6 +13,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    @media (min-width: 480px) {
+      flex-direction: column;
+    }
+    @media (min-width: 768px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
   }
   &__item {
     width: 370px;
@@ -20,6 +30,14 @@
     box-sizing: border-box;
     margin-bottom: 30px;
     transition: transform 0.3s ease-in-out;
+    @media (min-width: 480px) {
+      width: 450px;
+      height: 404px;
+    }
+    @media (min-width: 768px) {
+      width: 354px;
+      height: 440px;
+    }
     &:hover {
       box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
         0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -30,6 +48,14 @@
     object-fit: cover;
     width: 100%;
     height: 100%;
+    @media (min-width: 480px) {
+      width: 450px;
+      height: 294px;
+    }
+    @media (min-width: 768px) {
+      width: 354px;
+      height: 294px;
+    }
   }
   &__title {
     font-weight: 700;
@@ -71,5 +97,13 @@
     background: rgba(33, 150, 243, 0.9);
     opacity: 0;
     transition: 0.5s ease-in-out;
+    @media (min-width: 480px) {
+      width: 400px;
+      height: 169px;
+    }
+    @media (min-width: 768px) {
+      width: 305px;
+      height: 169px;
+    }
   }
 }
