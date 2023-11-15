@@ -241,7 +241,7 @@
       transform: scale(2);
     }
   }
-  &__hamburder {
+  &__hamburger {
     @media (min-width: 320px) {
       display: flex;
       flex-direction: column;
@@ -257,6 +257,7 @@
     @media (min-width: 768px) {
       display: none;
     }
+
     &--active {
       span:nth-child(1) {
         transform: rotate(45deg) translateY(5px);
