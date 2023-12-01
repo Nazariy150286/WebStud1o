@@ -17,6 +17,14 @@
     padding: 0;
     perspective: 250px;
     perspective-origin: 500px;
+    @media (min-width: 320px) {
+      width: auto;
+      flex-wrap: wrap;
+      gap: 30px;
+      li {
+        width: 450px;
+      }
+    }
     @media (min-width: 480px) {
       width: auto;
       flex-wrap: wrap;
@@ -37,6 +45,9 @@
   &__text {
     margin: 0;
     padding: 60px 0 30px;
+    @media (min-width: 320px) {
+      font-size: 28px;
+    }
     @media (min-width: 480px) {
       font-size: 28px;
     }
@@ -72,6 +83,9 @@
     color: $color_1;
   }
   .img {
+    @media (min-width: 320px) {
+      width: 450px;
+    }
     @media (min-width: 480px) {
       width: 450px;
     }
@@ -88,6 +102,11 @@
     padding: 0;
     margin-bottom: 30px;
     list-style-type: none;
+    @media (min-width: 320px) {
+      margin: 0 auto;
+      width: 206px;
+      margin-bottom: 30px;
+    }
     @media (min-width: 480px) {
       margin: 0 auto;
       width: 206px;

@@ -15,6 +15,11 @@
     align-items: center;
     width: 711px;
     margin: auto;
+    @media (min-width: 320px) {
+      width: 450px;
+      flex-wrap: wrap;
+      justify-content: left;
+    }
     @media (min-width: 480px) {
       width: 450px;
       flex-wrap: wrap;
